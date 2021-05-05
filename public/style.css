@@ -1,0 +1,49 @@
+html,body{
+    width:100%;
+    height:100%;
+}
+
+body{
+    background:rgb(247, 247, 247);
+    min-height:100vh;
+    display:flex;
+    font-family:sans-serif;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    margin:auto;
+}
+.formulario{
+    height:500px;
+    width:500px;
+}
+.formulario .form-control{
+    width:100%;
+    height:200px;
+    resize:none;
+}
+.formulario .btn{
+    width:505px;
+    height:30px;
+    border-radius:3px;
+}
+.result{
+    height:500px;
+    width:500px;
+    margin-left:200px;
+}
+.container form{
+    width:500px;
+    height:500px;
+    margin-right:200px;
+}
+.result .frase1, .frase2, .frase3{
+    display:inline-flex;
+}
+.frase1 .ouvir1, .ouvir2, .ouvir3{
+    height:20px;
+    margin:auto;
+}
+

@@ -1,0 +1,15 @@
+{
+  "name": "projeto_smarkio",
+  "version": "1.0.0",
+  "description": "Projeto vaga SMARKIO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Antony Rafael",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
